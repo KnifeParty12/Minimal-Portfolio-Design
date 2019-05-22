@@ -1,0 +1,252 @@
+/*----------Basic Styling--------------*/
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto Mono" !important;
+    background: #0f0f0f !important;
+    color: #fff !important;
+}
+
+.whitespace{
+    width: 100%;
+    height: 100px;
+}
+
+@media(max-width: 768px) {
+    .whitespace{
+        display: none;
+    }
+}
+
+/*------------typewriter effect------------*/
+.line{
+    width: 24em;
+    top: 50%;
+    margin: auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from{
+        width: 0;
+    }
+    to{
+        width: 13em;
+    }
+}
+
+@media(max-width: 768px) {
+    @keyframes typewriter {
+        from{
+            width: 0;
+        }
+        to{
+            width: 13em;
+        }
+    }
+}
+
+@keyframes blinkTextCursor {
+    from{
+        border-right-color: rgba(255,255,255,0.75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+/*---------- Navigation -------------*/
+
+nav{
+    width: 100%;
+    background: #0f0f0f;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav #brand{
+    float: left;
+    display: block;
+    margin-left: 82px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+nav #brand a {
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+
+nav #brand a:hover{
+    text-decoration: none;
+}
+
+nanv #menu{
+    float: left;
+    right: 80px;
+    position: fixed;
+}
+
+nav #menu li{
+    padding-left: 40px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 300;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+nav #menu li span{
+    font-weight: 700;
+}
+
+#toggle{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-weight: 300;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float: right;
+    transition: all 0.3s ease-out;
+    visibility: hidden;
+    opacity: 0;
+}
+.close-btn{
+    position: absolute;
+    right: 16px;
+    font-weight: 300;
+    z-index: 2;
+    cursor: pointer;
+    top: -2px;
+    line-height: 80px;
+}
+
+#resize{
+    z-index: 1;
+    top: 0;
+    position: fixed;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
+
+#resize #menu {
+    height: 90px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-40%);
+    text-align: center;
+    display: table-cell;
+    vertical-align: center;
+}
+#resize #menu li{
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 50px;
+    min-height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#resize li:nth-child(1){
+    margin-top: 140px;
+}
+#resize #menu li a{
+    color: #fff;
+}
+
+#resize #menu li a:hover {
+    text-decoration: none;
+}
+
+#resize.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    #toggle {
+        visibility: visible;
+        opacity: 1;
+        margin-top: 6px;
+        margin-right: 4px;
+    }
+
+    nav #brand{
+        margin-left: 24px;
+    }
+
+    #menu a{
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    #resize li span{
+        font-weight: bolder;
+    }
+
+    nav #menu {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #resize{
+        visibility: hidden !important;
+    }
+}
+
+/*-------- hero section ------------*/
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: -2px;
+    line-height: 58px;
+}
+
+@media(max-width: 768px) {
+    .header h1 {
+        font-size: 26px;
+    }
+}
+
+/*--------------- scroll down icon animation --------------- */
+
+
+
+
+
+
+
+
+
