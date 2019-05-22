@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-minimal",
+  "version": "1.0.0",
+  "description": "Portfolio page with minimalistic design",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnifeParty12/Minimal-Portfolio-Design.git"
+  },
+  "author": "Nikhil Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KnifeParty12/Minimal-Portfolio-Design/issues"
+  },
+  "homepage": "https://KnifeParty12.github.io/Minimal-Portfolio-Design",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
