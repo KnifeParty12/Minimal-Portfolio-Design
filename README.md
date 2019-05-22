@@ -1,4 +1,4 @@
-# Minimal-Portfolio-Design
+# Minimal-Portfolio-Design :wave:
 
 > **Complete Responsive Web Design | Minimal Portfolio Website | HTML, CSS & JS (JQUERY+ GSAP)**
 
@@ -17,3 +17,5 @@
 the expected rise in popularity of minimalism has reached an all-time high and I have tried one more time to touch this concept as usual.**
 
 > **I preferred **Bootstrap** just to create responsive columns so we can concentrate more on other parts of website.**
+
+### [Deployment](https://knifeparty12.github.io/Minimal-Portfolio-Design/index.html)
