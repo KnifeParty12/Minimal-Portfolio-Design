@@ -94,13 +94,13 @@ nav #brand a:hover{
     text-decoration: none;
 }
 
-nanv #menu{
+nanv .menu{
     float: left;
     right: 80px;
     position: fixed;
 }
 
-nav #menu li{
+nav .menu li{
     padding-left: 40px;
     display: inline-block;
     cursor: pointer;
@@ -110,7 +110,7 @@ nav #menu li{
     transition: all 0.3s ease-out;
 }
 
-nav #menu li span{
+nav .menu li span{
     font-weight: 700;
 }
 
@@ -150,7 +150,7 @@ nav #menu li span{
     transition: all 1s ease-out;
 }
 
-#resize #menu {
+#resize .menu {
     height: 90px;
     position: absolute;
     left: 45%;
@@ -159,7 +159,7 @@ nav #menu li span{
     display: table-cell;
     vertical-align: center;
 }
-#resize #menu li{
+#resize .menu li{
     display: block;
     text-align: center;
     padding: 10px 0;
@@ -173,11 +173,11 @@ nav #menu li span{
 #resize li:nth-child(1){
     margin-top: 140px;
 }
-#resize #menu li a{
+#resize .menu li a{
     color: #fff;
 }
 
-#resize #menu li a:hover {
+#resize .menu li a:hover {
     text-decoration: none;
 }
 
@@ -198,7 +198,7 @@ nav #menu li span{
         margin-left: 24px;
     }
 
-    #menu a{
+    .menu a{
         font-size: 20px;
         font-weight: 300;
     }
@@ -207,7 +207,7 @@ nav #menu li span{
         font-weight: bolder;
     }
 
-    nav #menu {
+    nav .menu {
         display: none;
     }
 }
@@ -510,3 +510,88 @@ h6{
 }
 
 /*---------------- contact form -----------*/
+
+#contact-form {
+    margin: 5% 1.4%;
+}
+
+#contact-form ul {
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#contact-form li {
+    padding: 10px;
+}
+
+#contact-form li:last-of-type {
+    border-bottom: none;
+}
+
+#contact-form label {
+    display: block;
+    font-size: .8em;
+    color: #999;
+    padding-left: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    resize: vertical;
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.textarea {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.send {
+    margin-left: 50px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    background: transparent;
+    color: #dfdfdf;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.send:hover {
+    background: #dfdfdf;
+    color: #101010;
+}
+
+@media(max-width: 768px) {
+    #contact-form {
+        margin: 5% -8%;
+        width: 98%;
+    }
+}
+
+/*--------------- project page --------------- */
+
+.prev, .next p {
+    color: grey;
+}
+
+.prev p {
+    text-align: left;
+}
+
+.next p {
+    text-align: right;
+}
