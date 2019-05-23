@@ -287,15 +287,16 @@ h6{
 
 .project{
     height: 500px;
+    cursor: pointer;
 }
 
 .project1 {
-    background: url("https://images.unsplash.com/photo-1540349220179-09d3866f2e74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2600&q=80") no-repeat 50% 50%;
+    background: url("photos/Man_City.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project1::after{
-    content: "timeless flow.";
+    content: "manchester city.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -308,12 +309,12 @@ h6{
 }
 
 .project2 {
-    background: url(https://images.unsplash.com/photo-1468870045442-e7d799d8c98a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80) no-repeat 50% 50%;
+    background: url("photos/Slack Clone.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project2::after {
-    content: "foretime.";
+    content: "buzzchat.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -326,12 +327,12 @@ h6{
 }
 
 .project3 {
-    background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat 50% 50%;
+    background: url("photos/thought-catalog-567759-unsplash.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
 
 .project3::after {
-    content: "never again.";
+    content: "cryptodash.";
     font-family: "Roboto Mono";
     font-size: 36px;
     position: relative;
@@ -505,9 +506,24 @@ h6{
     margin-top: 120px;
 }
 
-.image {
-    background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+.image1 {
+    background: url("photos/proto1.jpg") no-repeat 50% 70%;
+    background-size: cover;
 }
+
+.image2 {
+    background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+    background-size: cover;
+}
+.image3 {
+    background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+    background-size: cover;
+}
+.image4 {
+    background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+    background-size: cover;
+}
+
 
 /*---------------- contact form -----------*/
 
